@@ -161,7 +161,7 @@ fi
 updaterepo "https://github.com/acidanthera/audk" UDK master || exit 1
 cd UDK
 updaterepo "https://github.com/acidanthera/EfiPkg" EfiPkg master || exit 1
-updaterepo "https://github.com/acidanthera/OcSupportPkg" OcSupportPkg master || exit 1
+updaterepo "https://github.com/IOIIIO/OcSupportPkg" OcSupportPkg master || exit 1
 updaterepo "https://github.com/acidanthera/MacInfoPkg" MacInfoPkg master || exit 1
 
 if [ ! -d OpenCorePkg ]; then
