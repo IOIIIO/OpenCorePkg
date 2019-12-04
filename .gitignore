@@ -17,3 +17,4 @@ slow-unit-*
 *.out
 *.synctex.gz
 *.toc
+/.vs
