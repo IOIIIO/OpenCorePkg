@@ -426,9 +426,9 @@ OcKernelApplyPatches (
       PatchUsbXhciPortLimit (Context);
     }
 
-	if (Config->Kernel.Quirks.DisableCPUPM) {
-		PatchDisableCPUPM (Context);
-	}
+	  if (Config->Kernel.Quirks.DisableCPUPM) {
+		  PatchDisableCPUPM (Context);
+	  }
 
     if (Config->Kernel.Quirks.DisableIoMapper) {
       PatchAppleIoMapperSupport (Context);
